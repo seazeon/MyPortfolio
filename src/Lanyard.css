@@ -1,0 +1,11 @@
+.lanyard-wrapper {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+.lanyard-wrapper canvas {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+}

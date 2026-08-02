@@ -1,0 +1,19 @@
+.split-parent .split-line {
+  display: block;
+  overflow: hidden;
+}
+
+.split-parent .split-char,
+.split-parent .split-word {
+  display: inline-block;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .split-parent,
+  .split-parent .split-char,
+  .split-parent .split-word,
+  .split-parent .split-line {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}

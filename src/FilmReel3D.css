@@ -1,0 +1,17 @@
+.film-reel-webgl {
+  position: absolute;
+  inset: 0;
+  cursor: grab;
+  touch-action: none;
+  user-select: none;
+}
+
+.film-reel-webgl.is-dragging {
+  cursor: grabbing;
+}
+
+.film-reel-webgl canvas {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+}
