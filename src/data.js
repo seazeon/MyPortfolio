@@ -130,7 +130,7 @@ export const categories = [
           media: [
             {
               type: 'video',
-              src: '/projects/mine/demo.mp4',
+              src: 'https://media.githubusercontent.com/media/seazeon/MyPortfolio/main/public/projects/mine/demo.mp4',
               poster: '/projects/mine/cover.jpg',
               alt: '《Mine》大学生模拟器 Demo 演示视频',
             },
@@ -225,7 +225,7 @@ export const categories = [
           media: [
             {
               type: 'video',
-              src: '/projects/glitch-code/demo.mp4',
+              src: 'https://media.githubusercontent.com/media/seazeon/MyPortfolio/main/public/projects/glitch-code/demo.mp4',
               poster: '/projects/glitch-code/cover.jpg',
               alt: '《Glitch Code》聚光灯 Game Jam 实机演示视频',
             },
