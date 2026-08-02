@@ -1,0 +1,29 @@
+.global-pixel-trail {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  overflow: hidden;
+  pointer-events: none;
+  opacity: 0.92;
+  mix-blend-mode: screen;
+}
+
+.global-pixel-trail .pixel-canvas {
+  position: absolute !important;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  pointer-events: none !important;
+}
+
+@media (hover: none), (pointer: coarse) {
+  .global-pixel-trail {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .global-pixel-trail {
+    display: none;
+  }
+}
