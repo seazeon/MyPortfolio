@@ -1469,11 +1469,17 @@ html.page-turn-reverse::view-transition-old(root) {
 }
 
 .about-photo-wall {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
   margin-top: 126px;
+  padding-bottom: clamp(220px, 28vh, 340px);
 }
 
 .about-photo-label {
   display: flex;
+  width: 100%;
   align-items: flex-end;
   justify-content: space-between;
   gap: 80px;
@@ -1503,6 +1509,8 @@ html.page-turn-reverse::view-transition-old(root) {
 
 .about-bounce-cards {
   margin-top: 32px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .section-label {
