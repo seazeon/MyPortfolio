@@ -124,8 +124,8 @@ export default function ExperienceTimeline() {
                 baseRotateX={index % 2 === 0 ? 10 : -10}
                 baseTranslateY={42}
                 blurStrength={9}
-                rotationEnd="bottom 72%"
-                wordAnimationEnd="bottom 68%"
+                rotationEnd="top 55%"
+                wordAnimationEnd="top 55%"
                 containerClassName="timeline-reveal"
               >
                 <article className="timeline-card word">

@@ -445,8 +445,8 @@ function About() {
             baseRotateX={10}
             baseTranslateY={38}
             blurStrength={7}
-            rotationEnd="bottom 72%"
-            wordAnimationEnd="bottom 68%"
+            rotationEnd="top 55%"
+            wordAnimationEnd="top 55%"
           >
             {'我是钱盈颖，也叫 SEAZEON，一名工业设计专业学生。 我相信好的设计不只是让界面更漂亮，而是让复杂的信息变得清晰，让行动拥有自然的路径，让人与系统之间产生真实的感受。'}
           </ScrollReveal>
@@ -456,8 +456,8 @@ function About() {
             baseRotateX={-8}
             baseTranslateY={34}
             blurStrength={5}
-            rotationEnd="bottom 74%"
-            wordAnimationEnd="bottom 70%"
+            rotationEnd="top 55%"
+            wordAnimationEnd="top 55%"
             containerClassName="about-secondary-reveal"
           >
             {'目前的实践横跨 UI/UX、游戏设计、产品与视觉表达。'}
